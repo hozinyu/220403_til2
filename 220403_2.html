@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- 문서 선언 document type -->
+<html lang="en">
+  <!--루트 태그죠 여기안에는 무적권 두개의 태그 head 랑 body !-->
+  <head>
+    <!-- 브라우저에서 안보이는 부분 ex title style link 같은 html 대가리-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>키워드 단순나열 x 페이지마다 그에 맞게 변경 + 센스있게</title>
+    <!-- html 문서의 대제목 ㄹㅇ 대가리 검색 최적화에 seo에 매우 중요-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!-- 보여지는 부분 대부분의 정보들 기재하는 파트-->
+    <h1>hozinyu</h1>
+    <!-- <script src="./자바파일경로 "></script>
+    이렇게 해도 되고 혹은 -->
+    <script>
+      var h1 = document.querySelector("h1");
+      h1.addEventListener("click", function (event) {
+        this.textContent = "호지뉴";
+      });
+    </script>
+    <!-- script는 body에 서도 가장 마지막에 작성 = 로딩오래걸ㄹ리니강-->
+    <p style="">안녕하세요 호지뉴입니다룽</p>
+    <strong>저 빨리 java script배워서 지존 깔쌈한 웹 만들고 싶어요..</strong>
+  </body>
+</html>
